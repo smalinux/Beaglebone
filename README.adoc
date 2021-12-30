@@ -1,13 +1,17 @@
 
-```
-- Google image: Beaglebone black pinout diagram
-- Beaglebone website
-- beaglebone black getting started: https://beagleboard.org/getting-started
--
-```
+Files:
+===================
+apt-BBB.sh     -
+apt-host.sh    -
+c              - [dir] c code
+ChangeLog      -
+DistroKit      - how to use it 101
+mkudevrule.sh  -
+mount.sh       - command to burn hdimg to SD card
+notes          -
+py             - [dir] python code
+README.adoc    -
 
-```
-https://www.youtube.com/watch?v=c81tmb7WJxw&list=PLGs0VKk2DiYyThNvj6VyDFmOnQ8ncXk8b&index=5
-https://www.youtube.com/results?search_query=beaglebone+tutorial
-Beaglebone books
-```
+TODO list:
+===================
+* update ./ChangeLog file

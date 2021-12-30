@@ -1,0 +1,84 @@
+
+
+- Google image: Beaglebone black pinout diagram
+- Beaglebone website: http://derekmolloy.ie/beaglebone/
+- beaglebone black getting started: https://beagleboard.org/getting-started
+-
+
+https://www.youtube.com/watch?v=c81tmb7WJxw&list=PLGs0VKk2DiYyThNvj6VyDFmOnQ8ncXk8b&index=5
+videos: https://www.youtube.com/results?search_query=beaglebone+tutorial
+Playlists: https://www.youtube.com/results?search_query=beaglebone&sp=EgIQAw%253D%253D
+Beaglebone books
+Reference: https://elinux.org/BeagleBoard_Community
+tutorial: https://www.youtube.com/channel/UCNeX2-ePxf-L9Wed0Z6kDbQ/videos
+tutorial: https://www.youtube.com/c/DerekMolloyatDCU/videos
+GSoC!: https://elinux.org/BeagleBoard/GSoC/Ideas-2021
+very nice book: beaglebone creative projects for hobbyists
+very nice channel in general: https://www.youtube.com/c/mcwhorpj/playlists
+interesting: https://beagleboard.org/support/
+stackOVerflow embedded: https://stackoverflow.com/questions/tagged/embedded?tab=Votes
+all info you want: http://192.168.7.2/
+
+
+How to Use a Breadboard: (nice article)
+https://learn.sparkfun.com/tutorials/how-to-use-a-breadboard
+Breadboard Basics for Absolute Beginners: (nice article)
+https://www.instructables.com/Breadboard-Basics-for-Absolute-Begginers/
+
+
+
+# shutdown
+sudo shutdown -h now
+
+# Google: github: -- BeagleBone projects --
+
+# -- USB --
+## connect to cloud9:
+http://192.168.7.2/ide.html
+## ssh
+ssh debian@192.168.7.2
+or
+ssh debian@beaglebone.local
+
+# -- putty --
+sudo apt/dnf install putty
+
+# Google: ttl usb serial adapter tutorial
+
+
+# -- VNC --
+Remmina: vnc client viewer
+
+#< study Adafruti_BBIO python lib
+
+
+# how to control leds on the board (nice website)
+https://www.teachmemicro.com/beaglebone-black-controlling-user-leds/
+
+PWM: Pulse-width modulation
+
+
+# changeLog
+- Digital read/write
+- Analog read/write
+
+# concept:
+beaglebone Capes
+System on Chip (SoC)
+eMMC - embedded MultiMediaCard
+BBB - BeagleBone Black
+Linux SBC - Single Board Computers
+BSP - Board Support Package
+
+# libraries:
+- BoneScript: interesting beaglebone using js programming language
+	https://beagleboard.org/support/bonescript
+	https://github.com/jadonk/bonescript
+
+
+# -- BeagleBone Documentation
+= The BeagleBoard.org website: https://beagleboard.org/
+= Sitara AM335x ARM Cortex-A8 Technical Reference Manual (TRM): https://www.ti.com/product/AM3358
+= BeagleBone Black System Reference Manual (SRM): tiny.cc/beagle104
+=
+
