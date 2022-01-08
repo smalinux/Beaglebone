@@ -1,0 +1,27 @@
+Get started:
+============
+download distrokit repo & read README file:
+https://www.pengutronix.de/en/software/distrokit.html
+
+	- install ptxdist
+	- install toolchain
+		- sudo apt install oselas.toolchain-2020.08.0-arm-v7a-linux-gnueabihf
+		or
+		- sudo apt install oselas.toolchain-2021.07.0-arm-v7a-linux-gnueabihf
+	- clone distrokit
+		$ cd DistroKit
+		$ ptxdist platform configs/platform-v7a/platformconfig
+		$ ptxdist toolchain /opt/OSELAS.Toolchain-2020.08.0/x86_64-unknown-linux-gnu/gcc-10.2.1-clang-10.0.1-glibc-2.32-binutils-2.35-kernel-5.8-sanitized/bin
+			found and using toolchain:
+			'/opt/OSELAS.Toolchain-2020.08.0/x86_64-unknown-linux-gnu/gcc-10.2.1-clang-10.0.1-glibc-2.32-binutils-2.35-kernel-5.8-sanitized/bin/'
+
+		Then you can build all images with::
+
+		$ ptxdist images
+
+
+
+Reference
+===========
+- https://www.ptxdist.org/doc/
+- https://public.pengutronix.de/software/ptxdist/appnotes/AppNote_BuildingToolchain-1.1.0.pdf
