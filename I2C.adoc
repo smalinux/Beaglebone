@@ -1,0 +1,17 @@
+https://www.kernel.org/doc/html/latest/i2c/index.html
+
+
++ many names:
+	I2C  == IIC == TWI
+
+
++ SDA = Serial Data
++ SCL = Serial Clock
+
+
++ I2C devices:
+	- LCD
+	- external EEPROM
+		= 24c02c,
+	- sensors:
+		= GY-521,
