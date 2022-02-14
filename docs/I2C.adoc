@@ -1,0 +1,38 @@
+https://www.kernel.org/doc/html/latest/i2c/index.html
+
+$ ls /lib/firmware/ | grep I2C
+$ ls /dev/ | grep i2c
+
+
+$ i2c<tab><tab>
+
+$ watch
+
+
++ many names:
+	I2C  == IIC == TWI
+
+
++ SDA = Serial Data
++ SCL = Serial Clock
+
+
++ I2C devices:
+	- LCD
+	- external EEPROM
+		= 24c02c,
+	- sensors:
+		= GY-521
+		= mcp9800
+		= bma 180
+		= SE95 temperature sensor
+
+
+
+
+Misc
+================
+4 Videos for I2c temperature sensor
+https://www.youtube.com/channel/UCNeX2-ePxf-L9Wed0Z6kDbQ/videos
+=
+https://www.teachmemicro.com/beaglebone-black-mpu6050-i2c-tutorial-part-2/
